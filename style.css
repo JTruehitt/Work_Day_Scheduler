@@ -33,7 +33,8 @@ textarea {
   background-color: #114466;
   color: #fff;
   border-top: 1px dashed #000000;
-  /* align-self: center; */
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .past {
@@ -66,4 +67,14 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+
+.custom-modal {
+  background-color: #114466;
+  color: #fff;
+}
+
+.modal-body {
+  background-color: #fff;
+  color: #114466;
 }
